@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Pomodoro </title>
+</head>
+<body>
+  <h1>Pengfei.Q</h1>
+  <div id="pomodoro">
+    <header>
+      <div class="wrapper">
+        <div class="control">
+          <!-- break control -->
+          <p class="title">BREAK LENGTH</p>
+          <div class="break-ctrl"><button type="button" id="break-minus">-</button><span>5</span><button type="button" id="break-plus">+</button></div>
+        </div>
+        <div class="control">
+          <!-- session control -->
+          <p class="title">SESSION LENGTH</p>
+          <div class="session-ctrl"><button type="button" id="session-minus">-</button><span>10</span><button type="button" id="session-plus">+</button></div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="timer">
+        <p class="type">SESSION</p>
+        <p class="time">10</p>
+        <span class="fill"></span>
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
